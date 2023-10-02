@@ -4,12 +4,12 @@ import ProductCard from "@/components/ui/product-card";
 import NoResults from "@/components/ui/no-results";
 
 import getProducts from "@/actions/get-products";
+import getCategory from "@/actions/get-category";
 import getSizes from "@/actions/get-sizes";
 import getColors from "@/actions/get-colors";
-import getCategory from "@/actions/get-category";
 
-import MobileFilters from "./components/mobile-filters";
 import Filter from "./components/filter";
+import MobileFilters from "./components/mobile-filters";
 
 export const revalidate = 0;
 

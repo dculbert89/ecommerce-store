@@ -4,7 +4,7 @@ import Container from "@/components/ui/container";
 import MainNav from "@/components/main-nav";
 import getCategories from "@/actions/get-categories";
 import NavbarActions from "@/components/navbar-actions";
-import { ThemeToggle } from "./theme-toggle";
+// import { ThemeToggle } from "./theme-toggle";
 
 export const revalidate = 0;
 
@@ -20,7 +20,7 @@ const Navbar = async () => {
           </Link>
           <MainNav data={categories} />
           <div className="flex space-x-4 absolute right-8 ">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <NavbarActions />
           </div>
         </div>
