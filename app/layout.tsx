@@ -12,7 +12,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Store",
+  title: "Great Apparel Inc",
   description: "Store",
 };
 
