@@ -1,5 +1,3 @@
-import { SizeLimit } from "next";
-
 export interface Billboard {
   id: string;
   label: string;
